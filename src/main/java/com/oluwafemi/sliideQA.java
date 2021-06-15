@@ -57,7 +57,6 @@ public class sliideQA {
 
         MobileElement loginButton = (MobileElement) driver.findElement(new MobileBy.ById("com.test.news:id/buttonLogin"));
         loginButton.click();
-
         try {
             MobileElement newsClick = (MobileElement) driver.findElements(new By.ByClassName("androidx.recyclerview.widget.RecyclerView")).get(1);
             newsClick.click();
